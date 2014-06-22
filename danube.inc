@@ -108,9 +108,11 @@
 
 % popis
 \def\popis#1{\medskip\noindent{\small\bfseries #1}\par\nopagebreak}
+\def\popist#1{\medskip\noindent{\small\bfseries #1}\vspace*{1mm}\par\nopagebreak}
 
 % zdroj
 \def\zdroj#1{{\par\noindent\itshape\small#1\medskip}}
+\def\zdrojt#1{{\vspace*{1mm}\par\noindent\itshape\small#1\medskip}}
 
 % multicolumn -- pocet sl, zarovnani, text
 \def\mc#1#2#3{\multicolumn{#1}{#2}{#3}}
